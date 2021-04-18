@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Add Participant (Pre-Registration) </title>
+<link rel="stylesheet" href="main.css" type="text/css" >
+
+</head>
+<body>
+
+<br>
+
+<center> <h1> INTERNATIONAL RESEARCH, INVENTION AND INNOVATION EXHIBITION IRIIE 2014</h1></center>
+<br>
+
+<center> <img src ="IRIIE_0.jpg" alt ="Image can not be displayed" /></center>
+
+<form action="addparticipant_pr.jsp" method="POST">
+
+<div id ="side">
+	<a href="addparticipant_pr.html">Pre-Registration</a>	 <br><br>
+	<a href="addparticipant.html">Registration</a>	<br><br>
+	<a href="searchparticipant_pr.html">Search Pre-Registered Poster</a>	<br><br>
+	<a href="searchparticipant.html">Search Visitor</a>	<br><br>
+	<a href="showparticipantdetails_pr.jsp">Show Pre-Registered Posters</a>	<br><br>
+	<a href="showparticipantsdetails.jsp">Show Visitor</a>	<br><br>
+	<a href="remove_participant_pr.html"> Remove Pre-Registered Poster</a> <br><br>
+	<a href="remove_participant.html"> Remove Visitor</a>
+	</div>
+	
+<div class="box">
+
+<center><h1> Add New Poster</h1></center>
+<p> Fields with * are Compulsory <p> 
+<!-- exhibit Details -->
+
+<label> <span>Type of Exhibit *</span>
+	<select name="exhibit" class="input_text">
+	<option value="chooser">Choose Exhibit Type</option>
+		<option value="Poster">Poster</option>
+		<option value="Poster_Product">Poster and Product</option>
+	</select>
+	
+</label>
+<label> <span>Topic of the Poster *</span>
+	<select name="topic" class="input_text">
+	<option value="chooser">Choose Topic of Poster</option>
+		<option value="ICT">ICT</option>
+		<option value="Eng">Engineering</option>
+		<option value="IKOL">Islamic Studies</option>
+		<option value="HS">Human Science</option>
+		<option value="Med">Medicine</option>
+		<option value="Nur">Nursing</option>
+		<option value="Edu">Education</option>
+			
+	</select>
+	</label>
+	
+<label> <span> Poster Title *</span> <input type ="text" class = "input_text" name ="title" /> </label>
+ <label> <span> Abstract *</span> <textarea class = "input_text" name = "abstract" rows="5" cols="35"></textarea></label>
+ 
+<!-- Participants -->
+<label> <span>Name of 1st Author *</span> <input type="text" class="input_text" name="author_1" /> </label>
+<label> <span>Affiliation *</span> <input type="text" class="input_text"  name="affiliation_1" /> </label>
+<label> <span>Name of 2nd Author</span> <input type="text" class="input_text"  name="author_2" /> </label>
+<label> <span>Affiliation</span> <input type="text" class="input_text"  name="affiliation_2" /> </label>
+<label> <span>Name of 3rd Author</span> <input type="text" class="input_text" name="author_3" /> </label>
+<label> <span>Affiliation</span> <input type="text" class="input_text"  name="affiliation_3" /> </label>
+<label> <span>Name of 4th Author</span> <input type="text" class="input_text"  name="author_4" /> </label>
+<label> <span>Affiliation</span> <input type="text" class="input_text"  name="affiliation_4" /> </label>
+<label> <span>Name of 5th Author</span> <input type="text" class="input_text" name="author_5" /> </label>
+<label> <span>Affiliation</span> <input type="text" class="input_text"  name="affiliation_5" /> </label>
+<label> <span>Name of 6th Author</span> <input type="text" class="input_text"  name="author_6" /> </label>
+<label> <span>Affiliation</span> <input type="text" class="input_text"  name="affiliation_6" /> </label>
+<label> <span>Name of 7th Author</span> <input type="text" class="input_text" name="author_7" /> </label>
+<label> <span>Affiliation</span> <input type="text" class="input_text"  name="affiliation_7" /> </label>
+<label> <span>Name of 8th Author</span> <input type="text" class="input_text"  name="author_8" /> </label>
+<label> <span>Affiliation</span> <input type="text" class="input_text"  name="affiliation_8" /> </label>
+<label> <span>Name of 9th Author</span> <input type="text" class="input_text" name="author_9" /> </label>
+<label> <span>Affiliation</span> <input type="text" class="input_text"  name="affiliation_9" /> </label>
+    
+ <input type="submit" class="button" value="Add" />
+</div>
+</form>
+
+
+
+</body>
+</html>

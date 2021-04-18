@@ -1,0 +1,108 @@
+*{ margin:0; padding:0;}
+body{ font:100% normal Arial, Helvetica, sans-serif; background:white;}
+form,input,select,textarea{margin:0; padding:0; color:#fff;}
+h1{color : blue;}
+
+
+
+div.box{
+margin:0 auto;
+width:500px;
+background:#222;
+position:relative;
+top:50px;
+border:1px solid #262626;
+}
+
+div.box h1{ 
+color:#FFF5CC;
+font-size:18px;
+text-transform:uppercase;
+padding:5px 0 5px 5px;
+border-bottom:1px solid #161712;
+border-top:1px solid #161712; 
+}
+
+div.box label{
+width:100%;
+display: block;
+background:#1C1C1C;
+border-top:1px solid #262626;
+border-bottom:1px solid #161712;
+padding:10px 0 10px 0;
+color:white;
+}
+div.box label span{
+display: block;
+color:#bbb;
+font-size:12px;
+float:left;
+width:100px;
+text-align:right;
+padding:5px 20px 0 0;
+}
+
+div.box .input_text{
+padding:10px 10px;
+width:250px;
+background:#262626;
+border-bottom: 1px double #171717;
+border-top: 1px double #171717;
+border-left:1px double #333;
+border-right:1px double #333;
+}
+
+div.box .message{
+padding:7px 7px;
+width:350px;
+background:#262626;
+border-bottom: 1px double #171717;
+border-top: 1px double #171717;
+border-left:1px double #333;
+border-right:1px double #333;
+overflow:hidden;
+height:150px;
+}
+
+div.box .button
+{
+margin:0 0 10px 0;
+padding:4px 7px;
+background:#CC0000;
+border:0px;
+position: relative;
+top:10px;
+left:382px;
+width:100px;
+border-bottom: 1px double #660000;
+border-top: 1px double #660000;
+border-left:1px double #FF0033;
+border-right:1px double #FF0033;
+}
+
+#side {
+    margin: 0px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    width: 200px;
+}
+
+#side a:link {color: #86869B ; text-decoration: none; }
+#side a:visited {color:#86869B; text-decoration: none; }
+#side a:hover {color:#3366cc ;text-decoration: none; font-size: 18px; }
+#side a:focus {color:#999999 ;text-decoration: none;  }
+#side a:active {color:#999999; text-decoration: none; }
+
+.success, .error {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}

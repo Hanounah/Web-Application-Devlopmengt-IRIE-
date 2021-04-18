@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Add Participant</title>
+<link rel="stylesheet" href="main.css" type="text/css" >
+
+</head>
+<body>
+
+<br>
+
+<center> <h1> INTERNATIONAL RESEARCH, INVENTION AND INNOVATION EXHIBITION IRIIE 2014</h1></center> <br>
+
+<center><img src ="IRIIE_0.jpg" alt ="Image can not be displayed" /></center>
+<div id ="side">
+	<a href="addparticipant_pr.html">Pre-Registration</a>	 <br><br>
+	<a href="addparticipant.html">Registration</a>	<br><br>
+	<a href="searchparticipant_pr.html">Search Pre-Registered Poster</a>	<br><br>
+	<a href="searchparticipant.html">Search Visitor</a>	<br><br>
+	<a href="showparticipantdetails_pr.jsp">Show Pre-Registered Poster</a>	<br><br>
+	<a href="showparticipantsdetails.jsp">Show Visitor</a>	<br><br>
+	<a href="remove_participant_pr.html"> Remove Pre-Registered Poster</a> <br><br>
+	<a href="remove_participant.html"> Remove Visitor</a>
+	</div>
+
+<form action="addparticipant.jsp" method="POST">
+<div class = "box"> 
+<center> <h1> Registration Form </h1> </center>
+</div>
+
+<div class="content">
+
+<div class="box">
+
+<h1> Add New Visitor</h1>
+<p> Fields with * are Compulsory <p> 
+<label> <span>Category Name *</span>
+	<select name="type" class="input_text">
+	<option>Please Select Category</option>
+		<option value="Alumni_Local">Alumni Local</option>
+		<option value="Alumni_International">Alumni International</option>
+		<option value="Student_local">Student Local University</option>
+		<option value="Student_International"> Student Int. University</option>
+		<option value="Industry_exhibitor">Industry Exhibitor</option>
+		<option value="Industry_buyer">Industry Buyer</option>
+		<option value="Visitor_int">Visitor Int.</option>
+		<option value="Visitor_local">Visitor Local</option>
+		<option value ="Co-author"> Visitor Co-author </option>
+		
+	</select>
+</label>
+
+<!-- Details -->
+<label> <span>Visitor Name *</span> <input type="text" class="input_text" name="participant_name" /> </label>
+<label> <span>Phone Number</span> <input type="text" class="input_text"  name="phone_no" /> </label>
+<label> <span>Email *</span> <input type="text" class="input_text"  name="email" /> </label>
+<label><span> Affiliation *</span> <input type ="text" class ="input_text" name= "affiliation" /></label>
+
+ <input type="submit" class="button" value="Register" />
+</div>
+</div>
+</form>
+
+
+</body>
+</html>
